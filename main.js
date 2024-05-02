@@ -16,8 +16,11 @@ botoes[i].onclick = function(){
 
 const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2024-10-05T00:00:00");
-let tempoObjetivo1 = new Date();
 
-contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+contadores [0].textContent = calculaTempo(tempoObjetivo1);
+
+function calculaTempo(tempoObjetivo){
+
+}
 
 
